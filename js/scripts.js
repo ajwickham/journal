@@ -1,24 +1,20 @@
-//Business or back-end logic:
-
-
 // UI or front end logic
+var game1 = new Entry;
+
+
+
+
+
 $(document).ready(function() {
+//  attachContactListeners();
+
   $("form#details").submit(function(event) {
     event.preventDefault();
-      var christianName = $("#christianName").val();
-      var surname = ($("#surname").val());
-      var ageRange = $("#ageRange").val();
-
-      var denomination = $("input:radio[name=denomination]:checked").val();
-
-      var baptism = $("#baptism").val();
-
-
-
-
-      var result = christianName + " " + surname + " is in the age range "+ ageRange + " and a member of the "+denomination+
-        " church. They were baptised on "+baptism 
-      $("#output").text(result);  
-    });   
-  
+    var newTitle = $("input#title").val();
+    var newBody = $("input#body").val();
+    game1.addEntry(newTitle,newBody);
+    $('input#title').val('');
+    $('input#body').val('');
+  });
 });
+

@@ -1,7 +1,9 @@
-//Business or back-end logic:
-function Entry (){
-  this.titles = [];
-  this.body = [];
+export default function Entry(){
+
+  function Entry (){
+    this.titles = [];
+    this.body = [];
+  }
 }
 
 Entry.prototype.addEntry = function(title,body) {

@@ -1,3 +1,5 @@
+import Entry from './scriptsBackendlogic';
+
 // UI or front end logic
 var game1 = new Entry;
 

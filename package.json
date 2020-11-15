@@ -1,0 +1,24 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "This is an exercise to make a simple calculator to practice JSQuery",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajwickham/journal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajwickham/journal/issues"
+  },
+  "homepage": "https://github.com/ajwickham/journal#readme",
+  "devDependencies": {
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
